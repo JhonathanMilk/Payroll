@@ -1,0 +1,9 @@
+package Payroll;
+
+
+public class GenerateId {
+    private static int id = 21130;
+    public static int getNextId(){
+        return id++;
+    }
+}
